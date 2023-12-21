@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "16425221-16f8-42ab-92c6-61ea16c432a9",
+		"name": "DGTL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26042499"
+	},
+	"item": [
+		{
+			"name": "CTR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/rate?date=2023-12-10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rate"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2023-12-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/rate?startDate=2023-12-10&endDate=2023-12-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rate"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2023-12-10"
+						},
+						{
+							"key": "endDate",
+							"value": "2023-12-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

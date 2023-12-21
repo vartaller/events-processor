@@ -1,0 +1,17 @@
+{
+  "name": "dgtl",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "csv-parser": "^3.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
