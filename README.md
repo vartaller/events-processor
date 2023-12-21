@@ -26,5 +26,5 @@ To get the Click-Through Rate (CTR) for each campaign on a specified day, use th
 
 ##### Get Statistics
 
-daily statistics including clicks, views, and unique sessions for a given period, use the **`GET` request** to the **endpoint: `{{url}}/statistics`** with query parameters **`startDate`** **`endDate`** in **`yyyy-mm-dd`** format.
+To get the daily statistics including clicks, views, and unique sessions for a given period, use the **`GET` request** to the **endpoint: `{{url}}/statistics`** with query parameters **`startDate`** **`endDate`** in **`yyyy-mm-dd`** format.
 
